@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.a, .b, .c, .d, .f, .g {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+/* cores só pra visualizar igual as imagens */
+
+.a { background: #18d6d6; }
+.b { background: #18d6d6; }
+
+.c { background: #ddd7bb; }
+.d { background: #ddd7bb; }
+.f { background: #ddd7bb; }
+
+.g { background: red; }
+@media (min-width: 768px) {
+
+.menu {
+    display: flex;
+}
+
+.c, .d, .f {
+    flex: 1;
+}
+
+}
+@media (min-width: 1024px) {
+
+.a, .b {
+    display: inline-block;
+    width: 49px;
+}
+
+}
