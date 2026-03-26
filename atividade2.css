@@ -1,0 +1,32 @@
+.primeiro{
+    text-align: center;
+}
+
+
+
+
+
+
+@media (min-width: 1024px){
+
+.content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+@media (min-width: 1024px){
+
+  .primeiro{
+    display: flex;
+    justify-content: space-around;
+   background-color: aqua;
+  }
+
+
+  
+  
+
+}
