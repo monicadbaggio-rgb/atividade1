@@ -6,24 +6,27 @@ body {
 .primeiro {
   text-align: center;
 }
- .content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px
-    
-  }
-  .content img {
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.content img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  display: block;
+  /* display: block; */
 }
+
 @media (min-width: 768px) {
 
   .content {
-      grid-template-columns: 2fr 2fr 2fr;
-    
+      grid-template-columns: 1fr 1fr;
   }
+}
+
 @media (min-width: 1024px) {
 
   .primeiro {
@@ -33,10 +36,8 @@ body {
   }
 
   .content {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 2fr 3fr 3fr;
+  
     
   }
-
-}
-
 }
